@@ -1,0 +1,46 @@
+*{
+    background: black;
+}
+#parrent{
+    height: 400px;
+    width: 400px;
+    /* background: rgb(137, 31, 31); */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 200px; 
+
+}
+.c{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.c1{
+    background: yellow;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    left: 0px;
+    top: 0px;
+}
+.c2{
+    background: pink;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+.c3{
+    background:green;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    right: 0px;
+    top: 0px;
+}
+.c4{
+    background: mediumseagreen;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    left: 0px;
+    bottom: 0px;
+}
